@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Header } from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { motion } from "framer-motion";
@@ -61,7 +60,6 @@ export default function ReviewPage() {
 
   return (
     <div className="min-h-screen flex flex-col font-poppins">
-      <Header />
       <main className="flex-grow p-6">
         <motion.div
           className="max-w-6xl mx-auto space-y-6"

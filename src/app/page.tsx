@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Header } from "@/components/Header"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { motion } from "framer-motion"
@@ -67,7 +66,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col font-poppins">
-      <Header />
       <main className="flex-grow">
         <section className="py-20 px-8 relative overflow-hidden" ref={containerRef}>
           <div
