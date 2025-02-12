@@ -16,7 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Loader2 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { getReview } from "@/services/GeminiService";
+import { getReview } from "@/app/actions/getReview";
 
 const commonLanguages = [
   { value: "javascript", label: "JavaScript" },
