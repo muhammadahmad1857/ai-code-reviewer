@@ -38,7 +38,7 @@ group-hover:left-[calc(var(--sz-text)/4)] group-hover:top-[calc(calc(var(--gen-s
 
         <span
           className="z-20 [font-size:var(--sz-text)] font-extrabold leading-none 
-text-black-theme transition-all duration-200 group-hover:opacity-0"
+text-black transition-all duration-200 group-hover:opacity-0"
         >
           AI
         </span>
