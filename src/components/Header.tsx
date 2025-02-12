@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
-import { Zap } from "lucide-react"
-import Logo from "./Logo"
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { Zap } from "lucide-react";
+import Logo from "./Logo";
 
 export function Header() {
   return (
@@ -18,10 +18,12 @@ export function Header() {
         <Logo slideText={true} />
         <nav>
           <ul className="flex space-x-4">
-           
             <li>
               <Link href="/review">
-                <Button className="transition-all duration-200 hover:bg-primary/90">
+                <Button
+                  className="transition-all bg-white hover:bg-white/60
+                 duration-200 text-gray-800"
+                >
                   <Zap className="mr-2 h-4 w-4" />
                   Try it out
                 </Button>
@@ -31,6 +33,5 @@ export function Header() {
         </nav>
       </div>
     </motion.header>
-  )
+  );
 }
-

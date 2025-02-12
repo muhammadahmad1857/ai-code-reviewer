@@ -119,7 +119,7 @@ export default function Home() {
               <Link href="/review">
                 <Button
                   size="lg"
-                  className="text-lg transition-all duration-200 hover:bg-white/70 bg-white hover:scale-105 relative overflow-hidden group"
+                  className="text-lg transition-all duration-200 hover:bg-white/70 text-gray-800 bg-white hover:scale-105 relative overflow-hidden group"
                 >
                   <span className="relative z-10">Start Your Free Review</span>
                   <ArrowRight className="ml-2 relative z-10" />
