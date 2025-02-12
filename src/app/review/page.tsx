@@ -124,7 +124,7 @@ export default function ReviewPage() {
                         fontSize: 14,
                         wordWrap: "on",
                       }}
-                      className="relative z-10 border border-primary/20 rounded-md overflow-hidden"
+                      className="relative z-10 border p-4 border-primary/20 rounded-md overflow-hidden"
                     />
                   </div>
                   <Button

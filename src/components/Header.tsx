@@ -18,13 +18,7 @@ export function Header() {
         <Logo slideText={true} />
         <nav>
           <ul className="flex space-x-4">
-            <li>
-              <Link href="/about">
-                <Button variant="ghost" className="transition-all duration-200 hover:bg-primary/20">
-                  About
-                </Button>
-              </Link>
-            </li>
+           
             <li>
               <Link href="/review">
                 <Button className="transition-all duration-200 hover:bg-primary/90">
