@@ -119,7 +119,7 @@ export default function Home() {
               <Link href="/review">
                 <Button
                   size="lg"
-                  className="text-lg transition-all duration-200 hover:bg-primary/90 hover:scale-105 relative overflow-hidden group"
+                  className="text-lg transition-all duration-200 hover:bg-white/70 bg-white hover:scale-105 relative overflow-hidden group"
                 >
                   <span className="relative z-10">Start Your Free Review</span>
                   <ArrowRight className="ml-2 relative z-10" />
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-20 px-8 bg-secondary/30 relative overflow-hidden">
+        <section className="py-20 px-8 relative overflow-hidden">
           <div className="max-w-5xl mx-auto relative z-10">
             <motion.h2
               className="text-4xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"

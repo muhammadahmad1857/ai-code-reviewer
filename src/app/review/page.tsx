@@ -68,7 +68,7 @@ export default function ReviewPage() {
           transition={{ duration: 0.5 }}
         >
           <motion.h1
-            className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
+            className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400"
             initial={{ y: -20 }}
             animate={{ y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
