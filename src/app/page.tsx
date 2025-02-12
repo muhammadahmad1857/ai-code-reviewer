@@ -66,7 +66,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-foreground font-poppins">
+    <div className="min-h-screen flex flex-col font-poppins">
       <Header />
       <main className="flex-grow">
         <section className="py-20 px-8 relative overflow-hidden" ref={containerRef}>

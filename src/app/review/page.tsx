@@ -60,7 +60,7 @@ export default function ReviewPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-foreground font-poppins">
+    <div className="min-h-screen flex flex-col font-poppins">
       <Header />
       <main className="flex-grow p-6">
         <motion.div
